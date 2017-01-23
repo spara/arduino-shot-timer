@@ -1,3 +1,6 @@
+#include <Adafruit_MCP23017.h>
+#include <Adafruit_RGBLCDShield.h>
+
 ////////////////////////////////////////////////////////////
 // Shot Timer
 // Author: hestenet
@@ -1712,3 +1715,4 @@ void loop() {
   ButtonListener(&g_lcd, &g_buttons_state, &g_current_state); 
   RunTimer(&g_current_state, &g_par_enabled); 
 } 
+
