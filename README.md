@@ -26,6 +26,8 @@
 - [Adafruit Electet Mic/Amp](https://www.adafruit.com/products/1063)
 - Piezzo Buzzer
 
+[Instructions for Assembling Hardware](./hardware.md)
+
 ### Known Issues
 - Enabling `DEBUG` with the present code results in OOM errors(too many `DEBUG` statements), particularly when editing par times, but possibly also when listening for shots. 
 

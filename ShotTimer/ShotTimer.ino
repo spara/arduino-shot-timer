@@ -1690,11 +1690,11 @@ void ButtonListener(Adafruit_RGBLCDShield* g_lcd,
 //////////////////////////////
 
 void ShotListener() {
-  //DEBUG_PRINTLN(F("Listen-start:"),0);
+  DEBUG_PRINTLN(F("Listen-start:"),0);
   if (SampleSound() >= g_threshold) {
     RecordShot();
   }
-  //DEBUG_PRINTLN(F("Listen-end:"),0);
+  DEBUG_PRINTLN(F("Listen-end:"),0);
 }
 
 ////////////////////////////////////////////////////////////
